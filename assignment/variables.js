@@ -2,7 +2,7 @@ console.log('js');
 
 let firstName = "Vanessa";
 let lastName = "Wharton";
-let fullName = firstName, lastName; 
+let fullName = "Vanessa Wharton"; 
 
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
