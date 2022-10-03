@@ -110,4 +110,6 @@ switch(luckyNumber){
 console.log(statement);
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-(adventurous === true) ? stop('Adventures are great!') : run('How about we stay home?');
+(adventurous === true) ? 'Adventures are great!' : 'How about we stay home?';
+
+console.log("I figured out Stretch Goal 18 and it came up with" + (adventurous === true));
