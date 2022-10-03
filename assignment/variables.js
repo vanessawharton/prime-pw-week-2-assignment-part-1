@@ -1,6 +1,4 @@
 console.log('js');
-console.log( 'fullName');
-console.log( 'My name is', fullName, 'and I think', luckyNumber, 'is a winner!');
 
 let firstName = 'Vanessa';
 let lastName = 'Wharton';
@@ -14,6 +12,9 @@ let friendsPets = 2;
 pets += 2;
 
 const allowedPets = 6;
+
+console.log( 'fullName');
+console.log( 'My name is', fullName, 'and I think', luckyNumber, 'is a winner!');
 
 if(adventurous){true
     console.log( 'Adventures are great!');
