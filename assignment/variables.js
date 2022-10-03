@@ -2,7 +2,7 @@ console.log('js');
 
 let firstName = 'Vanessa';
 let lastName = 'Wharton';
-let fullName = firstName + lastName; 
+let fullName = firstName + ' ' + lastName; 
 
 console.log( 'fullName');
 
