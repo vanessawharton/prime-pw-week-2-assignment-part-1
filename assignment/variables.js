@@ -35,7 +35,7 @@ else if( pets == allowedPets){
 }
 else if( pets > allowedPets){
     console.log( 'Oh no, I have too many pets!');
-}}
+}
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
