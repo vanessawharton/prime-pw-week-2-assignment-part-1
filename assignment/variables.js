@@ -16,15 +16,27 @@ const allowedPets = 6;
 console.log( 'fullName');
 console.log( 'My name is', fullName, 'and I think', luckyNumber, 'is a winner!');
 
-if(adventurous){true
+if( adventurous ){true
     console.log( 'Adventures are great!');
 }
 else{
     console.log( 'How about we stay home?');
 }
-// 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-// 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
-// if it's not true, console log "How about we stay home?"
+
+if( luckyNumber == 2 && adventurous == true){
+    console.log( 'Roll the dice!');
+}
+
+if( pets < allowedPets){
+    console.log( 'I can have more pets!');
+}
+else if( pets == allowedPets){
+    console.log( 'I have enough pets');
+}
+else if( pets > allowedPets){
+    console.log( 'Oh no, I have too many pets!');
+}}
+
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 // 15 - Write a conditional that console logs "I can have more pets!" 
@@ -32,6 +44,7 @@ else{
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+
 // STRETCH GOALS:
 // 16 - Make a variable called `mostPets` and a conditional that
 // correctly checks the `pets` and `friendsPets` variables, and
