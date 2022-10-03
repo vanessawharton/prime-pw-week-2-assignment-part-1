@@ -3,7 +3,7 @@ console.log('js');
 let firstName = 'Vanessa';
 let lastName = 'Wharton';
 let fullName = firstName + ' ' + lastName; 
-let luckyNumber = 22;
+let luckyNumber = 2;
 let adventurous = true;
 let food = 'lefse';
 let pets = 3;
