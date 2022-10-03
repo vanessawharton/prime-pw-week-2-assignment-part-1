@@ -1,28 +1,31 @@
 console.log('js');
 
-let firstName = "Vanessa";
-let lastName = "Wharton";
-let fullName = "Vanessa Wharton"; 
+let firstName = 'Vanessa';
+let lastName = 'Wharton';
+let fullName = firstName + lastName; 
+
+console.log( 'fullName');
+
+let luckyNumber = 22;
+
+console.log( 'My name is', fullName, 'and I think', luckyNumber, 'is a winner!');
+
+let adventurous = true;
+
+let food = 'lefse';
+
+let pets = 3;
+
+let friendsPets = 2;
+
+
 
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 
-// 4 - Console log the value of `fullName`
-
-// 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
-// Refer back to the videos if you need help with this one.
-
-// 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-
-// 8 - Create a variable named `food`, and set its value to a string of your favorite food
-
-// 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-
-// 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
 // 11 - Add two pets to your `pets` variable
 
