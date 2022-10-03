@@ -30,7 +30,7 @@ let food = 'lefse';
 let pets = 3;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 9;
+let friendsPets = 1;
 
 // 11 - Add two pets to your `pets` variable
 pets += 2;
