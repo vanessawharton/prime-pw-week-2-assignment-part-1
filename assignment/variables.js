@@ -107,4 +107,6 @@ switch(luckyNumber){
         statement = "Luck is what happens when preparations meets opportunity"
 }
 
+console.log(statement);
+
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
